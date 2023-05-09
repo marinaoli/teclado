@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teclado Virtual</title>
+	<style>
+		.keyboard {
+			display: grid;
+			grid-template-columns: repeat(13, 1fr);
+			grid-gap: 10px;
+			padding: 20px;
+		}
+		.key {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+			cursor: pointer;
+			font-size: 1.5rem;
+		}
+		.input {
+			border: 1px solid black;
+			padding: 10px;
+			font-size: 1.5rem;
+			margin-bottom: 20px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<input type="text" class="input" id="text-input" />
+		<div class="keyboard">
+			<div class="key" onclick="addChar('q')">q</div>
+			<div class="key" onclick="addChar('w')">w</div>
+			<div class="key" onclick="addChar('e')">e</div>
+			<div class="key" onclick="addChar('r')">r</div>
+			<div class="key" onclick="addChar('t')">t</div>
+			<div class="key" onclick="addChar('y')">y</div>
+			<div class="key" onclick="addChar('u')">u</div>
+			<div class="key" onclick="addChar('i')">i</div>
+			<div class="key" onclick="addChar('o')">o</div>
+			<div class="key" onclick="addChar('p')">p</div>
+			<div class="key" onclick="addChar('[')">[</div>
+			<div class="key" onclick="addChar(']')">]</div>
+			<div class="key delete" onclick="deleteChar()">DEL</div>
+			<div class="key" onclick="addChar('a')">a</div>
+			<div class="key" onclick="addChar('s')">s</div>
+			<div class="key" onclick="addChar('d')">d</div>
+			<div class="key" onclick="addChar('f')">f</div>
+			<div class="key" onclick="addChar('g')">g</div>
+			<div class="key" onclick="addChar('h')">h</div>
+			<div class="key" onclick="addChar('j')">j</div>
+			<div class="key" onclick="addChar('k')">k</div>
+			<div class="key" onclick="addChar('l')">l</div>
+			<div class="key" onclick="addChar(';')">;</div>
+			<div class="key" onclick="addChar('\'')">\'</div>
+			<div class="key" onclick="addChar('\\')">\\</div>
+			<div class="key" onclick="addChar('z')">z</div>
+			<div class="key" onclick="addChar('x')">x</div>
+			<div class="key" onclick="addChar('c')">c</div>
+			<div class="key" onclick="addChar('v')">v</div>
+			<div class="key" onclick="addChar('b')">b</div>
+			<div class="key" onclick="add
